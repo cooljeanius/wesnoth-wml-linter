@@ -11,10 +11,14 @@ name: Hadolint
 
 on:
   push:
-    branches: ["latest"]
+    branches:
+      - latest
+      - dependabot/*
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: ["latest"]
+    branches:
+      - latest
+      - dependabot/*
   schedule:
     - cron: '24 13 * * 3'
 

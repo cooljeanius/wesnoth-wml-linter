@@ -1,3 +1,4 @@
+---
 name: 'WML Linter'
 description: 'Runs wmllint and wmlindent to verify the WML files.'
 inputs:
@@ -10,7 +11,7 @@ inputs:
     required: false
     default: master
   spellcheck:
-    description: 'If set to true, hunspell will be used to perform spellchecking.'
+    description: 'If set to true, use hunspell to perform spellchecking.'
     required: false
     default: false
   lint-flags:
